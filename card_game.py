@@ -95,7 +95,7 @@ class Hand:
 """ figure out how to functinize this stuff """
 
 def compare_cards(ranking, p1, p2):
-    """ compares the drawn card for each player, if there is a drawn
+    """ compares the drawn card for each player, if there is a draw
         "war" will be declared and fuction compare_cards_war() will be called
         --
         the return value is used by logic in the calling function to determine
@@ -141,7 +141,7 @@ def compare_cards_war(ranking, p1, p2, on_the_table):
         or a victor of war emerges
         --
         the return value is used by logic in the calling function to determine
-        who wan the war, why, and how many cards were won
+        who won the war, why, and how many cards were won
     """
     rng = random.Random()
     ranking = ranking
